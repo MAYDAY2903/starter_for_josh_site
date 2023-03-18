@@ -25,6 +25,7 @@
     bloginfo('name'); }
   if ($paged>1) {
     echo ' - page '. $paged; }
+  ?>
 </title>
 <meta name="description" content="<?php bloginfo('description'); ?>">
 <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/_/img/favicon.ico">
